@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login1">
+
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="56dp"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="                  Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorWhite" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="                  Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp"
+        android:alpha="0.9"
+        android:background="@drawable/rounded_button"
+        android:text="LOGIN"
+        android:textStyle="bold" />
+</RelativeLayout>

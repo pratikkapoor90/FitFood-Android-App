@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:text="1. How to start a healthy eating plan?
+A. a) Set goals
+     b) Track your progress
+2. What is the best diet for weight loss?
+A. The effective weight loss comes from avoiding animal products and keeping fats, vegetable     oils, highly processed foods to minimum level.
+3. If I were to take some supplements, what would you recommend?
+A. We personally don't suggest supplements as they cause instant change in the body which is not good for health.
+For more FAQ’s
+http://www.pcrm.org/health/diets/vegdiets/frequently-asked-questions-about-nutrition#WeightLoss
+"
+        android:textSize="18sp" />
+
+</LinearLayout>

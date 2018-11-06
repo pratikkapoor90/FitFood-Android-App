@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/restaurantsbackground">
+
+    <TextView
+        android:id="@+id/menulabel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorLogoOrange"
+        android:alpha="0.9"
+        android:textAlignment="center"/>
+
+
+    <ListView
+        android:id="@+id/fooditems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35sp"
+        android:layout_marginStart="2sp"
+        android:layout_marginEnd="2sp"
+        android:divider="@null"
+        android:dividerHeight="0dp" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-50dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/fooditems"
+            android:layout_alignParentRight="true"
+            android:alpha="1"
+            android:clickable="true"
+            android:src="@drawable/list_icon"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

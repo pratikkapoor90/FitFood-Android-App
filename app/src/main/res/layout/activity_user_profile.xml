@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pizzavengers.ca.dal.com.fitfood.UserProfile"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/colorLogoOrange"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_user_profile" />
+
+    <Button
+        android:id="@+id/about_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/editable_textview"
+        android:text="ABOUT US"
+        android:textColor="@color/colorLogoOrange"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/faq_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/editable_textview"
+        android:text="FAQ"
+        android:textColor="@color/colorLogoOrange"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="490dp"
+        android:background="@drawable/editable_textview"
+        android:text="LOG OUT"
+        android:textColor="@color/colorLogoOrange"
+        android:textSize="18sp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

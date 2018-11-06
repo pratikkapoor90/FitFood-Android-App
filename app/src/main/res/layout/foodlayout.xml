@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1sp"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/foodIname"
+        android:layout_width="0dp"
+        android:padding="5sp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/ff_total_fat"
+        android:layout_width="0dp"
+        android:padding="5sp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/ff_protien"
+        android:layout_width="0dp"
+        android:padding="5sp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/ff_calories"
+        android:layout_width="0dp"
+        android:padding="5sp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

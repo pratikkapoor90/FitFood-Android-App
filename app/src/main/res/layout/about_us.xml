@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="A handsome amount of people are showing their interest in either gym, yoga, outdoor sports, or even all of these in the extremes to boost their health. But earlier what everyone did not care was that fitness is incomplete without a right diet. People are getting more health conscious and are searching for proper nutrition in food at eateries, home, and supermarkets to set up their diets.
+
+Not every person can afford to see a dietitian for every single meal they eat. With “FitFood” we aim to provide a user with personal dietitian application that would recommend the user about the type of food suitable for them and the whereabouts of finding this nutrition. Using this application, there would be a notable raise in health stats as the user is allowed to get all of their important health related data in one easy-to-see place. The application would provide a tangible way to monitor their diet needs with smart and user-specific suggestions on the food they crave for.
+"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:ignore="RtlCompat"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

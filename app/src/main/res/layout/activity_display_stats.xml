@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/restaurantsbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_above="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.8"
+        android:textColor="@color/colorLogoGray"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_above="@+id/calVal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorLogoGray"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.8"
+        android:textStyle="bold"
+        android:text="Your daily intake requirements are:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCalorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewProtein"
+        android:layout_below="@+id/tb1"
+        android:layout_marginTop="90dp"
+        android:padding="7.5dp"
+        android:text="    Calorie     "
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:textColor="@color/colorLogoGray"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewProtein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewFat"
+        android:layout_below="@+id/textViewCalorie"
+        android:textColor="@color/colorLogoGray"
+        android:layout_marginTop="40dp"
+        android:padding="7.5dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:text="    Protein     "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewFat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorLogoGray"
+        android:layout_below="@+id/proteinVal"
+        android:padding="7.5dp"
+        android:layout_marginStart="36dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:layout_marginTop="40dp"
+        android:text="  Fat Count   "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewFat"
+        android:layout_below="@+id/textViewFat"
+        android:textColor="@color/colorLogoGray"
+        android:padding="7.5dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:text="  BMI Count  "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewBMI"
+        android:layout_below="@+id/textViewBMI"
+        android:textColor="@color/colorLogoGray"
+        android:layout_marginTop="40dp"
+        android:text="     Status      "
+        android:padding="7.5dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/proteinVal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewProtein"
+        android:layout_alignBottom="@+id/textViewProtein"
+        android:layout_alignStart="@+id/calVal"
+        android:textColor="@color/colorLogoOrange"
+        android:textStyle="bold"
+        android:padding="7.5dp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"/>
+
+    <TextView
+        android:id="@+id/fatVal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewFat"
+        android:layout_alignBottom="@+id/textViewFat"
+        android:layout_alignStart="@+id/proteinVal"
+        android:textAlignment="center"
+        android:textColor="@color/colorLogoOrange"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:padding="7.5dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"/>
+
+    <TextView
+        android:id="@+id/bmiVal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewBMI"
+        android:layout_alignStart="@+id/fatVal"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:padding="7.5dp"
+        android:textColor="@color/colorLogoOrange"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewStatus"
+        android:layout_alignStart="@+id/bmiVal"
+        android:textAlignment="center"
+        android:textColor="@color/colorLogoOrange"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:padding="7.5dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"   />
+
+    <TextView
+        android:id="@+id/calVal"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewCalorie"
+        android:layout_alignBottom="@+id/textViewCalorie"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/colorLogoOrange"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:padding="7.5dp"
+        android:background="@drawable/editable_textview"
+        android:alpha="0.95"
+        android:textAlignment="center" />
+
+    <!--<Button
+        android:id="@+id/search_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="@string/search"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textColor="@color/colorLogoGray"
+        android:alpha="0.9"
+        android:background="@drawable/editable_button" />-->
+
+    <RelativeLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/btm_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

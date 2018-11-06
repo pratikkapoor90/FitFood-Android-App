@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!--https://icons8.com/icon/6110/user-->
+    <item
+        android:id="@+id/view1"
+        android:title="Health"
+        android:icon="@drawable/user_icon"
+        />
+
+    <!--https://icons8.com/icon/6576/restaurant-->
+    <item
+        android:id="@+id/view2"
+        android:title="Restaurants"
+        android:icon="@drawable/restaurant_icon"/>
+
+    <!--https://icons8.com/icon/20344/registration-->
+    <item
+        android:id="@+id/view3"
+        android:title="Edit Profile"
+        android:icon="@drawable/edit_profile_icon"/>
+</menu>
